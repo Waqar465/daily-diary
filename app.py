@@ -17,4 +17,4 @@ app.register_blueprint(auth_bp, url_prefix='/auth')
 app.register_blueprint(diary_bp, url_prefix='/diary')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host= "0.0.0.0")
